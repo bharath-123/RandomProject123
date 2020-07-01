@@ -6,12 +6,23 @@ package com.myspace.randomproject123;
 
 public class demoobj implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public demoobj() {
-    }
+	private java.lang.Integer empId;
 
+	public demoobj() {
+	}
 
+	public java.lang.Integer getEmpId() {
+		return this.empId;
+	}
 
+	public void setEmpId(java.lang.Integer empId) {
+		this.empId = empId;
+	}
+
+	public demoobj(java.lang.Integer empId) {
+		this.empId = empId;
+	}
 
 }
